@@ -16,7 +16,7 @@ API_ID = int(os.environ.get('API_ID', 9976721)) #Telgram Api id
 APP_HASH = os.environ.get('APP_HASH', '3ef17a8cdb938335bd8ba292e6d816aa')# Telgram App hash  
 OWNER_ID = int(os.environ.get('OWNER_ID', 1956698956))
 MONGO_DB = os.environ.get("MONGO_DB", 'mongodb+srv://mytoons:mytoons@cluster0.10jhfvi.mongodb.net/?retryWrites=true&w=majority') #MONGO DB FOR ANIME DATA
-FILES_CHANNEL = os.environ.get("FILES_CHANNEL", -100456789013)
+FILES_CHANNEL = os.environ.get("FILES_CHANNEL", -1001939250008)
 BOT_NAME = os.environ.get('BOT_NAME', 'Detective Conan')
 #<---------------Connecting-------------->
 if BOT_TOKEN is not None:
